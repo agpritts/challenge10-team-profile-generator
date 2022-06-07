@@ -1,8 +1,7 @@
 {
   "name": "challenge10-team-profile-generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
@@ -22,11 +21,10 @@
   "homepage": "https://github.com/agpritts/challenge10-team-profile-generator#readme",
   "dependencies": {
     "email-validator": "^2.0.4",
-    "inquirer": "^8.2.4",
-    "joi": "^17.6.0",
-    "node": "^17.7.2"
+    "inquirer": "^8.2.4"
   },
   "devDependencies": {
     "jest": "^28.1.0"
-  }
+  },
+  "description": ""
 }
