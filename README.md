@@ -42,3 +42,5 @@
   :email: [Email](mailto:agpritts@gmail.com)<br/>
   
   ## Screenshots
+  ![Screen-Recording-2022-06-07-at-8 (2)](https://user-images.githubusercontent.com/96213926/172509807-adb83871-390d-4b38-bb80-793877a170fb.gif)
+
