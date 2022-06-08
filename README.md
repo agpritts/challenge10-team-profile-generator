@@ -2,7 +2,7 @@
   ![github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Link
-  https://agpritts.github.io/challenge10-team-profile-generator/
+  N/A
   
 
   ## Description
@@ -18,12 +18,10 @@
   * [Screenshots](#screenshots)
   
   ## Installation
-  Download the code and run c node index.js c from the command line at the folder 'docs'
+  Download the code and run `npm init-y`, `npm i -y`, and `node index.js` from the command line at the folder 'docs'
   
   ## Usage
-  Live deployment: Access [link](#link)<br/>
-  <br/>
-  Local deployment: Download code and follow [installation](#installation)
+  Follow [installation](#installation)
   
   ## License
   ![github license](http://img.shields.io/badge/license-MIT-blue.svg)
@@ -34,7 +32,7 @@
   Adam P.
   
   ## Tests
-  N/A
+  Run `npm run test` from the command line at the folder 'docs'
   
   ## Questions
   Contact me with any questions:<br/>
@@ -44,3 +42,5 @@
   :email: [Email](mailto:agpritts@gmail.com)<br/>
   
   ## Screenshots
+  ![Screen-Recording-2022-06-07-at-8 (2)](https://user-images.githubusercontent.com/96213926/172509807-adb83871-390d-4b38-bb80-793877a170fb.gif)
+
