@@ -18,7 +18,7 @@ test ("Set different Employee Name from constructor", () => {
 })
 
 test ("Set Employee ID from constructor", () => {
-    const testID = 01010;
+    const testID = 11010;
     const employeeE = new Employee("Adam", testID);
     expect (employeeE.id).toBe(testID);
 })
@@ -79,12 +79,12 @@ test ("Get different Employee Email from getEmail()", () => {
 
 test ("Get Employee Title from getTitle()", () => {
     const testTitle = "Employee";
-    const employeeE = new Employee("Adam", 1, "adam@email.com");
+    const employeeE = new Employee("Adam", 1, "adam@email.com", testTitle);
     expect (employeeE.getTitle()).toBe(testTitle);
 })
 
 test ("Get different Employee Title from getTitle()", () => {
     const testTitle = "Manager";
-    const employeeE = new Employee("Adam", 1, "adam@email.com");
+    const employeeE = new Employee("Adam", 1, "adam@email.com", testTitle);
     expect (employeeE.getTitle()).toBe(testTitle);
 })
