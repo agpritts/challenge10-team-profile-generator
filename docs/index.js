@@ -5,6 +5,7 @@ const util = require("util");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
+const html = require("./src/genHtml");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 const appendFileAsync = util.promisify(fs.appendFile);
@@ -13,7 +14,7 @@ let teamArray = [];
 let teamString = ``;
 
 console.clear();
-console.log("---------------------------------------------");
+console.log("------------------------");
 console.log("Team Portfolio Generator")
 
 async function init() {
@@ -27,16 +28,16 @@ async function init() {
         let finalHtml = html.generateHTML(teamString)
 
         console.clear();
-        console.log("---------------------------------------------");
+        console.log("------------------------");
         console.log("Generating index.html file....");
-        console.log("---------------------------------------------");
+        console.log("------------------------");
 
         writeFileAsync("./dist/index.html", finalHtml);
 
         console.clear();
-        console.log("---------------------------------------------");
+        console.log("------------------------");
         console.log("index.html file created");
-        console.log("---------------------------------------------");
+        console.log("------------------------");
 
     } catch (err) {
         return console.log(err);
@@ -48,7 +49,7 @@ async function prompt() {
 
     do {
         try {
-            console.log("---------------------------------------------");
+            console.log("------------------------");
             let response = await inquirer.prompt([
                 {
                     type: "input",
