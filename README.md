@@ -1,10 +1,6 @@
 # 👥 Team Profile Generator
   ![github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
-  ## Link
-  N/A
-  
-
   ## Description
   This application uses node.js to generate an employee database that can be viewed via exported HTML
   
