@@ -14,7 +14,7 @@
   * [Screenshots](#screenshots)
   
   ## Installation
-  Download the code and run `npm init-y`, `npm i -y`, and `node index.js` from the command line at the folder 'docs'
+  Download the code and run `npm init -y`, `npm i -y`, and `node index.js` from the command line at the folder 'docs'
   
   ## Usage
   Follow [installation](#installation)
